@@ -1,4 +1,4 @@
-actimport streamlit as st
+import streamlit as st
 import numpy as np
 import joblib
 
@@ -164,3 +164,4 @@ if st.button("Predict species"):
     )
 
 st.markdown('</div>', unsafe_allow_html=True)
+
